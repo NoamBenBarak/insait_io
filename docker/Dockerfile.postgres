@@ -1,0 +1,13 @@
+# Use the official PostgreSQL image from the Docker Hub
+FROM postgres:15
+
+# Environment variables (these can be overridden in docker-compose.yml)
+ENV POSTGRES_DB=mydatabase
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=password
+
+# Expose the PostgreSQL port
+EXPOSE 5432
+
+# Command to run PostgreSQL
+CMD ["postgres"]

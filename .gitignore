@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+dist/
+
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+
+# Test and coverage results
+.pytest_cache/
+coverage/
+
+# Docker-related files
+docker-compose.override.yml
+
+#archive files
+/archive".env" 
